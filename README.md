@@ -1,6 +1,7 @@
+I'll put some real content here later - this is mainly just for science
+<!--
 ### Hi there 👋
 
-<!--
 **LunarWatcher/LunarWatcher** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
