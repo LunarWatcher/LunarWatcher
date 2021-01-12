@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-I'm Olivia, and I'm terrible at introducing myself. Nowadays, I mostly code in C++, with some Python on the side for buildsystem scripts, with the periodic non-coding side quest into gaming (the factory must grow!) and drawing. I make some cool<sup>in my biased opinion</sup> stuff from time to time.
+I'm Olivia, and I'm terrible at introducing myself. Nowadays, I mostly code in C++, with some Python on the side for buildsystem scripts, with the periodic non-coding side quest into gaming ([the factory must grow!](https://www.factorio.com/)) and drawing. I make some cool<sup>in my biased opinion</sup> stuff from time to time.
 
 
 #### Stats
@@ -15,9 +15,7 @@ Received **{{ STARS }}** stars
 
 Own **{{ REPOSITORIES }}** repositories
 
-Contributed to **{{ REPOSITORIES_CONTRIBUTED_TO }}** public repositories
-
-Top 10 languages:
+##### Top 10 languages:
 
 {{ LANGUAGE_TEMPLATE_START:max=10 }}
 ![{{LANGUAGE_NAME}}](https://img.shields.io/static/v1?style=flat-square&label=%E2%A0%80&color=555&labelColor={{LANGUAGE_COLOR:uri}}&message={{LANGUAGE_NAME:uri}}%EF%B8%B1{{LANGUAGE_PERCENT:uri}}%25)
