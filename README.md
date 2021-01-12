@@ -15,7 +15,7 @@ Received **39** stars
 
 Own **38** repositories
 
-Contributed to **13** public repositories
+Contributed to **12** public repositories
 
 Top 10 languages:
 
