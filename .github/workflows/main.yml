@@ -8,7 +8,7 @@ on:
   push:
     branches: [ master ]
   schedule:
-    - cron: '0 * * * *'
+    - cron: '0 */4 * * *'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -29,6 +29,9 @@ jobs:
           repositories_forks: yes
           plugin_languages: yes
           plugin_followup: yes
+          plugin_habits: yes
           plugin_habits_charts: yes
           plugin_habits_facts: yes
           plugin_stargazers: yes
+          plugin_languages_skipped: conan-center-index
+          plugin_projects: yes
