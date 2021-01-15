@@ -35,3 +35,4 @@ jobs:
           plugin_stargazers: yes
           plugin_languages_skipped: conan-center-index
           plugin_projects: yes
+          plugin_isocalendar: yes
