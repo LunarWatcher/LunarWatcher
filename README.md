@@ -5,7 +5,7 @@ I'm Olivia, and I'm terrible at introducing myself. Nowadays, I mostly code in C
 
 #### Stats
 
-![Metrics](https://github.com/my-github-user/lunarwatcher/blob/master/github-metrics.svg)
+![Metrics](https://github.com/lunarwatcher/blob/master/github-metrics.svg)
 
 ---
 
