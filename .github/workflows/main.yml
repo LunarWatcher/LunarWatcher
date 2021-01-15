@@ -25,3 +25,4 @@ jobs:
         with:
           token: ${{ secrets.USER_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: Europe/Oslo
