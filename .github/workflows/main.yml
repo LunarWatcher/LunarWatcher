@@ -41,6 +41,7 @@ jobs:
           plugin_achievements_limit: 0
           plugin_stackoverflow: yes
           plugin_stackoverflow_user: 6296561
+          plugin_stackoverflow_sections: ''
           
           plugin_languages_skipped: conan-center-index
           plugin_projects: yes
