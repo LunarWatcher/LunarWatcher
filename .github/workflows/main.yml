@@ -31,6 +31,7 @@ jobs:
           plugin_languages: yes
           plugin_followup: yes
           plugin_habits: yes
+          plugin_lines: yes
           plugin_traffic: yes
           plugin_habits_charts: yes
           plugin_habits_facts: yes
@@ -45,6 +46,7 @@ jobs:
           plugin_stackoverflow_lines: 0
           # Y tho?
           plugin_stackoverflow_limit: 1
+          
           
           plugin_languages_skipped: conan-center-index
           plugin_projects: yes
