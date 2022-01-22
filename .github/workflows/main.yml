@@ -1,0 +1,53 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Profile stats
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  push:
+    branches: [ master ]
+  schedule:
+      - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - uses: lowlighter/metrics@master
+        with:
+          token: ${{ secrets.USER_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          config_timezone: Europe/Oslo
+          repositories_forks: yes
+          plugin_languages: yes
+          plugin_followup: yes
+          plugin_habits: yes
+          plugin_lines: yes
+          plugin_traffic: yes
+          plugin_habits_charts: yes
+          plugin_habits_facts: yes
+          plugin_stargazers: yes
+          plugin_achievements: yes
+          plugin_achievements_threshold: B
+          plugin_achievements_secrets: yes
+          plugin_achievements_limit: 0
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 6296561
+          plugin_stackoverflow_sections: ''
+          plugin_stackoverflow_lines: 0
+          # Y tho?
+          plugin_stackoverflow_limit: 1
+          
+          
+          plugin_languages_skipped: conan-center-index
+          plugin_projects: yes
+          plugin_isocalendar: yes
