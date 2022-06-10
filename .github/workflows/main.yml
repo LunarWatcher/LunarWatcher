@@ -48,6 +48,6 @@ jobs:
           plugin_stackoverflow_limit: 1
           
           
-          plugin_languages_skipped: conan-center-index
+          plugin_languages_skipped: conan-center-index, oh-my-zsh
           plugin_projects: yes
           plugin_isocalendar: yes
