@@ -47,7 +47,8 @@ jobs:
           # Y tho?
           plugin_stackoverflow_limit: 1
           
-          
+          plugin_licenses: yes
           plugin_languages_skipped: conan-center-index, oh-my-zsh
-          plugin_projects: yes
           plugin_isocalendar: yes
+          
+          plugin_projects: no
