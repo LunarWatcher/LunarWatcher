@@ -17,10 +17,6 @@ And I don't bite ~~hard~~.
 
 ![Visit counter](https://count.getloli.com/get/@:OliviaLunarWatcherGitHub?theme=rule34)
 
-#### Holopin badges
-
-[![@lunarwatcher's Holopin board](https://holopin.io/api/user/board?user=lunarwatcher)](https://holopin.io/@lunarwatcher)
-
 ---
 
 I some times write some random shit on [my blog](https://lunarwatcher.github.io/posts/). I also lurk around [on Discord](https://discord.gg/y3vd2vAYru) (Discord, along with other contact methods are listed [on my website](https://lunarwatcher.github.io))
