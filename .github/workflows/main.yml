@@ -22,7 +22,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - uses: lowlighter/metrics@master
+      - uses: lowlighter/metrics@a53a5853a99509233cdef4b056411facc481b833
         with:
           token: ${{ secrets.USER_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
