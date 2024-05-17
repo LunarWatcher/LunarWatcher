@@ -7,7 +7,3 @@ And I don't bite ~~hard~~.
 ### Contact me
 
 See the sidebar here on GitHub, or [my website](//lunarwatcher.github.io/contact.html) for more options.
-
-### Stats
-
-![Visit counter](https://count.getloli.com/get/@:OliviaLunarWatcherGitHub?theme=rule34)
